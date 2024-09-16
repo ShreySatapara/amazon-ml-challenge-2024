@@ -47,7 +47,7 @@ python eval.py --start_idx <start_idx> --end_idx <end_idx>
 
 #### there are default paths for reading test.csv and test_images and to write the predictions.
 
-## For T5 finetuning and evaluation take a look at ./T5_finetuning folder
+## For T5 finetuning and evaluation take a look at `t5-finetune` folder
 
 
 ## Submission by Team DEFAULT
