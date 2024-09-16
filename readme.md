@@ -1,6 +1,6 @@
 # Amazon ML Challegne 2024 
 ## Create conda env using requirements.yml
-````
+```
 conda env create -f environment.yml
 ```
 
