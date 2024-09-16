@@ -1,3 +1,10 @@
+# Amazon ML Challegne 2024 
+## Submission by Team DEFAULT
+-   [Shreykumar Satapara](https://shreysatapara.github.io)
+-   Sayanta Adhikari
+-   Arkaprava Majumdar
+-   Rishabh Karnad
+
 ## Preprocessing
 - create a dataset folder which will contain train/test file and train test images
 - download and store train test images at
@@ -36,5 +43,9 @@ accelerate launch --config_file <config_file_path> train.py
 ### Inference
 
 ```
-python eval.py --start_idx <start_index > --end_idx <end_index> 
+python eval.py --start_idx <start_idx> --end_idx <end_idx>
 ```
+
+#### there are default paths for reading test.csv and test_images and to write the predictions.
+
+## For T5 finetuning and evaluation take a look at ./T5_finetuning folder
