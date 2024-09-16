@@ -1,9 +1,8 @@
 # Amazon ML Challegne 2024 
-## Submission by Team DEFAULT
--   [Shreykumar Satapara](https://shreysatapara.github.io)
--   Sayanta Adhikari
--   Arkaprava Majumdar
--   Rishabh Karnad
+## Create conda env using requirements.yml
+````
+conda env create -f environment.yml
+```
 
 ## Preprocessing
 - create a dataset folder which will contain train/test file and train test images
@@ -49,3 +48,10 @@ python eval.py --start_idx <start_idx> --end_idx <end_idx>
 #### there are default paths for reading test.csv and test_images and to write the predictions.
 
 ## For T5 finetuning and evaluation take a look at ./T5_finetuning folder
+
+
+## Submission by Team DEFAULT
+-   [Shreykumar Satapara](https://shreysatapara.github.io)
+-   Sayanta Adhikari
+-   Arkaprava Majumdar
+-   Rishabh Karnad
